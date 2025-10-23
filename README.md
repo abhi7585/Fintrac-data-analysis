@@ -46,4 +46,47 @@ This notebook provides an analysis of FINTRAC (Financial Transactions and Report
 *   **Fiscal Year Trend:** The total number of reports generally exhibits an increasing trend across fiscal years.
 *   **Activity Sector Contribution:** The 'Banks' sector contributes a significantly higher number of reports compared to other activity sectors.
 
+
+📊 **Here’s what the data reveals:**
+
+🔼 1.35+ billion reports were filed between 2011 and 2023, marking a ~70% increase in total reporting volume. The biggest jumps occurred in 2011–2012 (+45.9%) and 2022–2023 (+20.4%) — both tied to major regulatory and operational shifts.
+
+💳 **By Report Type:**
+
+EFT (Electronic Funds Transfers): ~805M reports (≈59%) — dominant and steadily rising.
+
+LCTR (Large Cash Transactions): ~396M reports (≈29%) — declining after 2020 due to reduced cash activity.
+
+STR (Suspicious Transactions): ~151M reports (≈11%) — doubled since 2017, highlighting enhanced AML vigilance.
+
+CDR (Casino Disbursements): ~2M reports — rebounded after pandemic slowdowns.
+
+🏦 **By Sector:**
+
+Banks dominate with over 800M EFT and 396M LCTR filings — driving nearly 90% of total reports.
+
+Money Services Businesses (MSBs) show strong STR concentration (~3M), marking a key AML focus area.
+
+Credit Unions remain consistent contributors (~38M total).
+
+Casinos, Real Estate, and Precious Metals sectors report smaller volumes but carry higher inherent risk.
+
+🌎 **Geographically:**
+
+Ontario leads (~40% of all reports), followed by Quebec (~17%) and British Columbia (~15%).
+
+Activity is heavily concentrated in Toronto, Montreal, and Vancouver — Canada’s major financial hubs.
+
+📅 **Fiscal Trend:**
+
+Total annual reports rose from ~68M in FY2011–12 to ~180M in FY2022–23.
+
+EFTs and STRs are driving this upward curve, underscoring a clear shift toward digital vigilance and risk-based reporting.
+
+In short:
+
+Canada’s AML reporting landscape is maturing rapidly — from cash-heavy monitoring to sophisticated, technology-driven oversight.
+
+The continued rise in STRs and EFTs highlights growing vigilance and stronger compliance systems across the industry.
+
 This analysis provides insights into the reporting patterns captured by FINTRAC data, highlighting trends over time, key geographical areas, and the distribution of different report types.
