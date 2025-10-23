@@ -1,2 +1,37 @@
-# Fintrac-data-analysis
-Analysis the data from FINTRAC
+# FINTRAC Data Analysis
+
+This notebook provides an analysis of FINTRAC (Financial Transactions and Reports Analysis Centre of Canada) data. The analysis focuses on understanding trends in the number of reports submitted over time, the geographical distribution of these reports across Canada, and the breakdown of report types within different activity sectors.
+
+## Notebook Structure and Analysis Steps
+
+1.  **Data Loading and Initial Inspection**: The analysis begins by loading the data from an Excel file (`fintrac-canafe_data-donnees.xlsx`) into a pandas DataFrame. Initial steps include previewing the data, checking data types, and identifying duplicate rows.
+2.  **Data Cleaning and Preparation**: This section focuses on cleaning the data for analysis. This involves:
+    *   Cleaning column names to retain only the English portion.
+    *   Cleaning data within columns (object types) to remove French text.
+    *   Handling missing or blank postal codes by removing relevant rows.
+    *   Extracting Year and Month into separate columns from the `YearMonthReportReceived` column.
+    *   Cleaning the 'ActivitySector' column.
+3.  **Trend Analysis**: This part of the analysis examines how the number of reports has changed over time.
+    *   The total number of reports is aggregated by year and month.
+    *   An interactive line plot visualizes the trend of reports over time.
+    *   Monthly and yearly percentage changes in report numbers are calculated and displayed to quantify the trend.
+4.  **Geographical Distribution Analysis**: This section explores where the reports are originating from within Canada.
+    *   The total number of reports is aggregated by Postal Code to identify areas with high reporting volumes.
+    *   A new column `Province_Territory` is created based on the first letter of the Postal Code.
+    *   The total number of reports is aggregated and visualized by `Province_Territory` using a bar chart.
+    *   The top 3 contributing provinces/territories by year are identified and visualized.
+5.  **Yearly Distribution by Province and Report Type**: A detailed breakdown of report types within each province/territory over the years is performed and visualized using faceted bar charts for all report types, and then specifically for STR, LCTR, and EFT reports.
+6.  **Fiscal Year Trend**: The total number of reports is analyzed and visualized by Fiscal Year.
+7.  **Cross-analysis by Activity Sector and Report Type**: The analysis attempts to explore the distribution of report types within different activity sectors, noting the dominance of the 'Banks' sector.
+
+## Key Observations and Findings
+
+*   **Overall Trend:** There is a general upward trend in the total number of reports over time, with significant yearly increases observed in certain periods (e.g., 2011-2012 and 2022-2023).
+*   **Dominant Report Type:** Electronic Funds Transfer Reports (EFT) consistently constitute the largest category of reports filed.
+*   **STR Report Growth:** Suspicious Transaction Reports (STR) have shown a notable percentage growth since 2017.
+*   **Geographical Concentration:** The majority of reports originate from Ontario, with specific postal codes in major urban centers like Toronto and Montreal showing the highest reporting volumes.
+*   **Provincial Trends:** While Ontario is the highest contributor, the analysis reveals varying trends in report numbers and types across different provinces and territories.
+*   **Fiscal Year Trend:** The total number of reports generally exhibits an increasing trend across fiscal years.
+*   **Activity Sector Contribution:** The 'Banks' sector contributes a significantly higher number of reports compared to other activity sectors.
+
+This analysis provides insights into the reporting patterns captured by FINTRAC data, highlighting trends over time, key geographical areas, and the distribution of different report types.
