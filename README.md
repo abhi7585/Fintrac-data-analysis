@@ -24,6 +24,18 @@ This notebook provides an analysis of FINTRAC (Financial Transactions and Report
 6.  **Fiscal Year Trend**: The total number of reports is analyzed and visualized by Fiscal Year.
 7.  **Cross-analysis by Activity Sector and Report Type**: The analysis attempts to explore the distribution of report types within different activity sectors, noting the dominance of the 'Banks' sector.
 
+## Data Sources:
+
+*   **FINTRAC Data on Financial Transactions:**
+    *   **Dataset:** Financial transaction report counts by postal code and activity sector. [Dataset source](https://open.canada.ca/data/en/dataset/81cc47ac-e88d-4b7f-9318-8774a2d919e6?utm_source=chatgpt.com)
+    *   **Details:** This dataset provides monthly counts of financial transaction reports submitted to FINTRAC, categorized by activity sector, report type, and reporting entity location.
+    *   **Usage:** Use this data to analyze the volume and distribution of various financial transactions across different sectors and regions.
+*   **FINTRAC Publications and Reports:**
+    *   **Source:** FINTRAC Publications
+    *   **Details:** FINTRAC publishes strategic intelligence reports, operational alerts, and sectoral advisories that can provide insights into emerging trends and typologies in money laundering activities.
+    *   **Usage:** Incorporate findings from these publications to contextualize your dashboard and highlight areas of concern.
+
+
 ## Key Observations and Findings
 
 *   **Overall Trend:** There is a general upward trend in the total number of reports over time, with significant yearly increases observed in certain periods (e.g., 2011-2012 and 2022-2023).
